@@ -1,0 +1,18 @@
+{
+  "name": "stocktake-reconciliation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --format=iife --outfile=dist/app.js",
+    "start": "node scripts/server.js",
+    "test": "node --test tests/unit/*.test.js",
+    "test:browser": "node tests/browser/app.mjs"
+  },
+  "dependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "esbuild": "0.25.10"
+  }
+}

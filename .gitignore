@@ -1,0 +1,9 @@
+node_modules/
+data/original/
+data/local/
+data/imports/**/*.js
+data/imports/**/*.json
+data/imports/**/*.xlsx
+output/
+config/samples.local.json
+output/test-artifacts/
